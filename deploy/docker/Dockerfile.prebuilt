@@ -7,4 +7,4 @@ ARG OMNIGENT_IMAGE=ghcr.io/omnigent-ai/omnigent-server:latest
 FROM ${OMNIGENT_IMAGE}
 
 # Daytona sandbox provider — not included in the base server image
-RUN pip install --no-cache-dir "daytona>=0.180,<1"
+RUN pip install --no-cache-dir "modal==1.5.2"
